@@ -2,6 +2,7 @@
 public class Test1Generisch<Typ1, Typ2> {
 	private Typ1 attribut1;
 	private Typ2 attribut2;
+	private int attribut4;
 
 	public Typ1 getAttribut1() {
 		return attribut1;
