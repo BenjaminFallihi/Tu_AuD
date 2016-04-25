@@ -66,16 +66,19 @@ public class Test1Generisch<Typ1, Typ2> {
 		}
 
 		List<Studi> list = new LinkedList<Studi>();
-		for (int i = 0; i < 20; i++) {
+		for (int i = 0; i < 10; i++) {
 			Studi s = new Studi();
-			s.matrikelnummer = ((24 * i) % 2);
+			s.matrikelnummer = ((24567 * i) % 235);
+			System.out.print(s.matrikelnummer +" ");
 			list.add(s);
 		}
+		
+		System.out.println();
 		
 		Iterator<Number> it1 = c1.iterator();
 		while (it1.hasNext())
 			System.out.print(it1.next().intValue() + " ");
-
+		
 	}
 
 }
